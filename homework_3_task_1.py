@@ -3,8 +3,8 @@
 #     *Пример:*
 #     - [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
-list = [2, 3, 5, 9, 3]
+list1 = [2, 3, 5, 9, 3]
 list2 = []
-for i in range(1, len(list), 2):
-    list2.append(list[i])
-print(f'{list} - на нечетных позициях элементы {list2}, сумма =', sum(list2))
+for i in range(1, len(list1), 2):
+    list2.append(list1[i])
+print(f'{list1} - на нечетных позициях элементы {list2}, сумма =', sum(list2))
